@@ -1,4 +1,4 @@
-id: codewind_plugin
+id: codewind-plugin
 apiVersion: v2
 version: 0.0.1
 type: Che Plugin
@@ -19,4 +19,4 @@ spec:
         name: projects
     ports:
       - exposedPort: 9090
-
+      
