@@ -1,0 +1,22 @@
+id: codewind_plugin
+apiVersion: v2
+version: 0.0.1
+type: Che Plugin
+name: CodewindPlugin
+title: CodewindPlugin
+description: Enables iterative development and deployment in Che
+icon: https://raw.githubusercontent.com/IBM/charts/master/logo/microclimate-logo.png
+publisher: IBM
+repository: https://github.com/eclipse/codewind-che-plugin
+category: Other
+firstPublicationDate: "2019-02-20"
+spec:
+  containers:
+  - name: codewind-che-sidecar
+    image: sys-mcs-docker-local.artifactory.swg-devops.com/mcornaia/codewind-che-sidecar:latest
+    volumes:
+      - mountPath: "/projects"
+        name: projects
+    ports:
+      - exposedPort: 9090
+
