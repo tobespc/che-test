@@ -2,11 +2,6 @@
 apiVersion: 1.0.0
 metadata:
   name: codewind-plugin-env
-projects:
- - name: nodeTemplate
-    source:
-      type: git
-      location: 'https://github.com/microclimate-dev2ops/nodeExpressTemplate'
 components:
   - alias: theia-ide
     type: cheEditor
