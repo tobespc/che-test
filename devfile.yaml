@@ -3,11 +3,7 @@ apiVersion: 1.0.0
 metadata:
   name: codewind-plugin-env
 projects:
-  - name: microproj
-    source:
-      type: git
-      location: 'https://github.com/rajivnathan/microproj.git'
-  - name: nodeTemplate
+ - name: nodeTemplate
     source:
       type: git
       location: 'https://github.com/microclimate-dev2ops/nodeExpressTemplate'
@@ -21,5 +17,3 @@ components:
   - alias: codewind-theia
     type: chePlugin
     id: http://nix.rtp.raleigh.ibm.com/plugins/codewind/codewind-plugin/0.2.0/meta.yaml
-
-
