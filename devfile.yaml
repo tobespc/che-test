@@ -11,7 +11,8 @@ projects:
 components:
   - alias: theia-ide
     type: cheEditor
-    id: eclipse/che-theia/next
+#theia picklist bug (should be fixed later than Jul10-2019)    id: eclipse/che-theia/next
+    id: eclipse/che-theia/7.0.0-rc-3.0
   - alias: codewind-plugin
     type: chePlugin
     id: https://raw.githubusercontent.com/mcor11/che-test/master/meta.yaml
