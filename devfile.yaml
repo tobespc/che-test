@@ -15,7 +15,7 @@ components:
     id: eclipse/che-theia/7.0.0-rc-3.0
   - alias: codewind-plugin
     type: chePlugin
-    id: https://raw.githubusercontent.com/mcor11/che-test/master/meta.yaml
+    id: https://raw.githubusercontent.com/markcor11/che-test/master/meta.yaml
   - alias: codewind-theia
     type: chePlugin
     id: http://nix.rtp.raleigh.ibm.com/plugins/codewind/codewind-plugin/0.2.0/meta.yaml
